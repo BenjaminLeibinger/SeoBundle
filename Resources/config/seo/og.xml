@@ -5,7 +5,7 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="leogout_seo.configurator.og" class="Leogout\Bundle\SeoBundle\Seo\Og\OgSeoConfigurator">
+        <service id="leogout_seo.configurator.og" class="Leogout\Bundle\SeoBundle\Seo\Og\OgSeoConfigurator" public="true">
             <argument>%leogout_seo.og%</argument>
         </service>
 
